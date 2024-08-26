@@ -1,19 +1,19 @@
 # Recommender Systems Project
 Recommender System for Deezer
 
-The aim of the project is to develop an improved recommendation system for Deezer, a music streaming service with over 43 million tracks. By analysing approximately 8 million listening histories, an algorithm will be developed that predicts whether a user will listen to a recommended track for more than 30 seconds. We develop our own algorithm and compares it with existing approaches. 
+The aim of the project is to develop an recommendation system for Deezer, a music streaming service with over 43 million tracks. By analysing approximately 8 million listening histories, an algorithm will be developed that predicts whether a user will listen to a recommended track for more than 30 seconds. We develop our own algorithm and compare it with existing approaches. 
 
 ## Repository Structure
 
 The repository is organized as follows:
 
-- **data/**: Contains raw data, processed data and intermediate data records.
-- **docs/**: Documentation of the project..
-- **notebooks/**: Jupyter Notebooks or Python documents for scraping and visualizations
-- 
+- **data/**: 
+- **docs/**: Documentation of the project
+- **notebooks/**: Jupyter Notebooks or Python files
+
 ## Getting Started
 1. Clone the repository to your local machine using the following command:
-    >git clone <https://github.com/cmimholz/hslu-cip.git>
+    >git clone <https://github.com/cmimholz/recommender-systems-project.git>
 2. Explore the repository structure to find the resources you need.
 3. If you plan to contribute to this repository, please follow the guidelines outlined in the section Collaboration.
 
