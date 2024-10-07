@@ -1,28 +1,37 @@
 # Recommender Systems Project
-Recommender System for Deezer
 
-The aim of the project is to develop an recommendation system for Deezer, a music streaming service with over 43 million tracks. By analysing approximately 8 million listening histories, an algorithm will be developed that predicts whether a user will listen to a recommended track for more than 30 seconds. We develop our own algorithm and compare it with existing approaches. 
+The objective of this project is to optimise Deezer's "Flow" for a competition feature with a view to enhancing music recommendations. This will be achieved through a collaborative filtering approach that incorporates embedding layers and matrix factorisation. The objective was to ascertain whether users would listen to the initial track recommended to them. A deep learning model was developed in TensorFlow, utilising embedding layers for users and songs. The model was trained with stochastic gradient descent. The model achieved a validation accuracy of 79.41%, thereby demonstrating its effectiveness in personalising recommendations based on user interactions.
 
-## Repository Structure 
+## Repository Structure
 
 The repository is organized as follows:
 
-- **data/**: 
-- **docs/**: Documentation of the project
-- **notebooks/**: Jupyter Notebooks or Python files
+- **data/**:
+  - `added_users.csv`: Unique user data.
+  - `media_ids.csv`: A list of unique media IDs (songs or tracks).
+  - `test_dataset.csv`: Test dataset used to evaluate the model's performance.
+  - `train_dataset.csv`: Training dataset used to train the recommendation model.
+  - `validation_dataset.csv`: Validation dataset used to tune the model.
+  
+- **best_model.keras**: The best-trained model saved in Keras format for further use.
+
+- **eda.ipynb**: Jupyter Notebook containing exploratory data analysis (EDA) to understand patterns and distributions within the dataset.
+
+- **recommender.ipynb**: Jupyter Notebook that implements the recommendation algorithm and evaluates its performance.
 
 ## Getting Started
 1. Clone the repository to your local machine using the following command:
-    >git clone <https://github.com/cmimholz/recommender-systems-project.git>
+    > git clone <https://github.com/cmimholz/recommender-systems-project.git>
 2. Explore the repository structure to find the resources you need.
 3. If you plan to contribute to this repository, please follow the guidelines outlined in the section Collaboration.
 
 ## Collaboration
 To ensure a smooth collaboration, please follow these guidelines when making contributions:
 1. **Code Style and Standards**: Maintain a consistent code style by following our coding conventions. Use clear and descriptive names for variables, functions, and classes. Please follow the [PEP8](https://peps.python.org/pep-0008/) (Python Enhancement Proposals) conventions.
-3. **Commit Message Guidelines**: Write informative and concise commit messages. Start with a short summary in the present tense, followed by a more detailed description if necessary. This helps to maintain a clean and organized commit history.
-4. **Documentation**: Update relevant documentation to reflect your changes. This includes code comments, README files, or any other supporting documentation. Provide clear instructions on how to use new features or any changes to existing functionality.
-5. **Code of Conduct**: We expect all contributors to adhere to our project's code of conduct. Be respectful and considerate in all interactions within the project community. Harassment or any form of offensive behavior will not be tolerated.
+2. **Commit Message Guidelines**: Write informative and concise commit messages. Start with a short summary in the present tense, followed by a more detailed description if necessary. This helps to maintain a clean and organized commit history.
+3. **Documentation**: Update relevant documentation to reflect your changes. This includes code comments, README files, or any other supporting documentation. Provide clear instructions on how to use new features or any changes to existing functionality.
+4. **Code of Conduct**: We expect all contributors to adhere to our project's code of conduct. Be respectful and considerate in all interactions within the project community. Harassment or any form of offensive behavior will not be tolerated.
+
 
 
 ## Contact
